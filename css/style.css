@@ -1,0 +1,93 @@
+:root {
+    --color-fundo: #96A7B0;
+    --color-letras: #ffffff;
+    --color-detalhes: #C3C5C9;
+    --font-menu: 'Albert Sans', sans-serif;
+    --font-titulo:  'Varela', sans-serif;
+    --font-texto: 'Space Grotesk', sans-serif;
+    --font-zn: 'Russo One', sans-serif;
+}
+
+body {background-color: var(--color-fundo);
+    overflow-x: hidden;}
+html {scroll-behavior: smooth;}
+a {text-decoration: none;}
+
+.altura {min-height: 100vh;}
+
+.bg-img {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.800),rgba(0, 0, 0, 0.800)),
+    url(../img/armas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.bg-c {background-color: #96A7B0;}
+
+.logo {
+    font-size: 4vmin;
+    color: var(--color-letras);
+}
+
+.menu {
+    font-family: var(--font-menu);
+    font-size: 2vmin;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-letras); 
+}
+
+.menu:hover {
+    font-weight: 600;
+    color: #718CA0;
+}
+
+.zn {
+    font-family: var(--font-zn);
+    font-size: 20vmin;
+    color: var(--color-detalhes);
+}
+
+.zn-t {
+    font-family: var(--font-menu);
+    font-size: 3vmin;
+    letter-spacing: 1px;
+    color: var(--color-detalhes);
+}
+
+.btn {
+    color: var(--color-letras);
+    border: 3px solid var(--color-detalhes);
+    padding: 0.3% 0.8%;
+    border-radius: 10px;
+    transition: .5s;
+    font-size: 2vmin;
+    font-family: var(--fonte-texto);
+    justify-content: left;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: var(--color-detalhes);
+    color: black;
+    font-weight: 600;
+}
+
+.titulo {
+    font-family: var(--font-titulo);
+    font-size: 6vmin;
+    color: var(--color-letras);
+}
+
+.texto {
+    font-family: var(--font-texto);
+    font-size: 2.5vmin;
+    color: var(--color-letras);
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    color: #ffffff;
+    border: #ffffff;
+}
+
